@@ -1,0 +1,121 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: rgb(255, 255, 255);
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   color: gray;
+}
+
+.upperNavPanel {
+   display: flex;
+   justify-content: space-between;
+   border-style: groove;
+   border-width: 1px;
+   border-color: rgb(232, 244, 255);
+   padding: 0.5rem;
+   align-items: center;
+   background-color: rgb(232, 240, 255);
+   font-weight: 600;
+   padding: 0 3rem 0 3rem;
+   margin-bottom: 3rem;
+}
+
+
+.upperNavPanel li{
+   padding: 0.5rem;
+}
+
+.upperNavPanel ul {
+   list-style: none;
+   display: flex;
+}
+
+.sign-up-button {
+   background-color: rgb(5, 112, 206);
+   border-radius: 5px;
+   color: white;
+}
+
+.sign-up-button:hover{
+   background-color: rgb(79, 194, 255);
+}
+
+main{
+   width: 60%;
+   margin: auto;
+   
+}
+
+.upper{
+   display: flex;
+   
+}
+
+.leftInfo h1, p {
+   margin-bottom: 1rem;
+}
+
+.info > div > h1 {
+   font-size: 2rem;
+}
+
+.image {
+   text-align: center;
+}
+
+.upper > div{
+   width: 50%;
+   
+}
+
+
+.sendEmail button {
+   
+   background-color: rgb(5, 112, 206);
+   color: white;
+   padding: 5px;
+   border: none;
+   border-radius: 5px;
+   font-weight: 600;
+}
+
+@media (max-width: 950px) {
+
+ 
+   .upperNavPanel{
+      margin: 0;
+      padding: 0;
+      display: block;
+   }
+   main{
+      width: 100%;
+   }
+   .upper{
+      margin: 0;
+      padding: 0;
+      display: block;
+   }
+   .upper div{
+
+      width: 100%;
+   
+   }
+
+}
+
+@media (max-width: 512px) {
+   .upperNavCenter{
+      display: none   ;
+   }
+}
